@@ -1,5 +1,8 @@
-# studybuddy-backend
-Backend for Study Buddy website for IIITV curriculums 
+<h1 align="center">studybuddy-backend</h1>
+
+<h4 align="center"> Website for the IIITV curriculum
+<img src="https://cdn2.iconfinder.com/data/icons/designer-skills/128/react-512.png" width="40" align="center"> and
+<img src="https://img.icons8.com/windows/32/000000/django.png" width="30" align="center"></h4>
 
 ## Development 🔧
 
@@ -32,5 +35,11 @@ After creating virtual environment
 ### Start
 ```sh
 $ pip install -r requirements.txt
+$ python manage.py makemigrations
+$ python manage.py migrate 
 $ python manage.py runserver
 ```
+
+### Authors :pencil:
+
+©️ Web Team Study Buddy :tada:
