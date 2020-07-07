@@ -1,5 +1,6 @@
 # studybuddy-backend
 Backend for Study Buddy website for IIITV curriculums 
+
 ## Development 🔧
 
 ## Setup
@@ -33,4 +34,3 @@ After creating virtual environment
 $ pip install -r requirements.txt
 $ python manage.py runserver
 ```
-
