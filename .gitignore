@@ -114,4 +114,8 @@ media/
 
 staticfiles/
 
+#environment variables
 .env
+
+#migrations
+migrations/
