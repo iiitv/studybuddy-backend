@@ -33,6 +33,8 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'semester.apps.SemesterConfig',
+    'contact_us.apps.ContactUsConfig',
+    'contribute.apps.ContributeConfig',
     'course.apps.CourseConfig',
     'django.contrib.admin',
     'django.contrib.auth',

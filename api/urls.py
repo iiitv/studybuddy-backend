@@ -9,6 +9,8 @@ urlpatterns = [
     path('api-auth/', include('rest_framework.urls', namespace='rest-urls')),
     # path('sem/', include('semester.urls', namespace='sem')),
     # path('course/', include('course.urls', namespace='course')),
+    # path('contact/', include('contact_us.urls', namespace='contact')),
+    # path('contribute/', include('contribute.urls', namespace='contribute')),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
