@@ -1,3 +1,4 @@
 from django.contrib import admin
+from contribute.models import Contribute
 
-# Register your models here.
+admin.site.register(Contribute)
