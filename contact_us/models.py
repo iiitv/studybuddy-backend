@@ -2,6 +2,7 @@ from django.db import models
 from semester.models import Semester
 from course.models import Course
 
+
 class Contact(models.Model):
     name = models.CharField(max_length=100)
     field = models.CharField(max_length=20)

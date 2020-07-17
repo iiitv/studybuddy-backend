@@ -33,8 +33,6 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'semester.apps.SemesterConfig',
-    'contact_us.apps.ContactUsConfig',
-    'contribute.apps.ContributeConfig',
     'course.apps.CourseConfig',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -43,6 +41,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'contact_us.apps.ContactUsConfig',
+    'contribute.apps.ContributeConfig',
 ]
 
 MIDDLEWARE = [
