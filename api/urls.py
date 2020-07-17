@@ -6,11 +6,11 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api-auth/', include('rest_framework.urls', namespace='rest-urls')),
-    # path('sem/', include('semester.urls', namespace='sem')),
-    # path('course/', include('course.urls', namespace='course')),
-    # path('contact/', include('contact_us.urls', namespace='contact')),
-    # path('contribute/', include('contribute.urls', namespace='contribute')),
+    # path('api-auth/', include('rest_framework.urls', namespace='rest-urls')),
+    path('sem/', include('semester.urls', namespace='sem')),
+    path('courses/', include('course.urls', namespace='course')),
+    path('contact/', include('contact_us.urls', namespace='contact')),
+    path('contribute/', include('contribute.urls', namespace='contribute')),
 ]
 
 urlpatterns += staticfiles_urlpatterns()
