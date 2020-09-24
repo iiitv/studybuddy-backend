@@ -1,6 +1,6 @@
 from rest_framework.viewsets import ModelViewSet
-from course.models import Course, Assignment, ExamPaper, VideoLecture
-from course.serializers import CourseSerializers, AssignmentSerializers, ExamPaperSerializers, VideoLectureSerializers 
+from course.models import Course, Assignment, ExamPaper, VideoLecture, Note
+from course.serializers import CourseSerializers, AssignmentSerializers, ExamPaperSerializers, VideoLectureSerializers, NoteSerializers 
 
 class CourseViewSets(ModelViewSet):
     serializer_class = CourseSerializers
@@ -20,3 +20,7 @@ class ExamPaperViewSets(ModelViewSet):
 class VideoLectureViewSets(ModelViewSet):
     serializer_class = VideoLectureSerializers
     queryset = VideoLecture.objects.all()
+
+class NoteViewSets(ModelViewSet):
+    serializer_class = NoteSerializers
+    queryset = Note.objects.all()
